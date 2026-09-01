@@ -9,5 +9,7 @@ if(isTrue(a)){
     console.log("no");
 }
 
+
+
 document.title="javaScript class 1";
 document.body.style.backgroundColor="red";
