@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="a box">
+            this is inside container
+        </div>
+    </div>
+    <script>
+        let div=document.createElement("div");
+        div.setAttribute("class","created");
+        div.innerHTML="this is a box";
+        document.querySelector(".container").appendChild(div);
+    </script>
+</body>
+</html>
